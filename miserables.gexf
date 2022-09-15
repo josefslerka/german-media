@@ -1,0 +1,1358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2022-09-15">
+    <creator>Gephi 0.9.3</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="v_name" title="name" type="string"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="e_relevance" title="relevance" type="double"/>
+      <attribute id="e_overlap" title="overlap" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="n0" label="achgut.com">
+        <attvalues>
+          <attvalue for="v_name" value="achgut.com"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="16.923077"/>
+        <viz:position x="1669.6315" y="127.87154"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n1" label="ansage.org">
+        <attvalues>
+          <attvalue for="v_name" value="ansage.org"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="1551.1759" y="-1239.6932"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n2" label="augsburger-allgemeine.de">
+        <attvalues>
+          <attvalue for="v_name" value="augsburger-allgemeine.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-710.0791" y="247.97572"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n3" label="berliner-zeitung.de">
+        <attvalues>
+          <attvalue for="v_name" value="berliner-zeitung.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="16.125345" y="16.330496"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n4" label="bunte.de">
+        <attvalues>
+          <attvalue for="v_name" value="bunte.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.307693"/>
+        <viz:position x="-499.80554" y="-1831.766"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n5" label="bz-berlin.de">
+        <attvalues>
+          <attvalue for="v_name" value="bz-berlin.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-803.0739" y="-1161.3322"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n6" label="danisch.de">
+        <attvalues>
+          <attvalue for="v_name" value="danisch.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1403.3953" y="64.49143"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n7" label="derwesten.de">
+        <attvalues>
+          <attvalue for="v_name" value="derwesten.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-1247.691" y="-846.96466"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n8" label="deutschlandfunk.de">
+        <attvalues>
+          <attvalue for="v_name" value="deutschlandfunk.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-247.35754" y="1244.4296"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n9" label="epochtimes.de">
+        <attvalues>
+          <attvalue for="v_name" value="epochtimes.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1078.5334" y="-145.953"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n10" label="express.de">
+        <attvalues>
+          <attvalue for="v_name" value="express.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-853.8541" y="-863.8114"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n11" label="faz.net">
+        <attvalues>
+          <attvalue for="v_name" value="faz.net"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="15.769231"/>
+        <viz:position x="-1098.9482" y="1151.4036"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n12" label="focus.de">
+        <attvalues>
+          <attvalue for="v_name" value="focus.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="21.538462"/>
+        <viz:position x="-39.846653" y="-558.2827"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n13" label="fr.de">
+        <attvalues>
+          <attvalue for="v_name" value="fr.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="343.6154" y="741.08307"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n14" label="gala.de">
+        <attvalues>
+          <attvalue for="v_name" value="gala.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-471.72958" y="-1924.8323"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n15" label="hessenschau.de">
+        <attvalues>
+          <attvalue for="v_name" value="hessenschau.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-194.93842" y="1758.0586"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n16" label="hna.de">
+        <attvalues>
+          <attvalue for="v_name" value="hna.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-559.50287" y="389.0407"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n17" label="jungefreiheit.de">
+        <attvalues>
+          <attvalue for="v_name" value="jungefreiheit.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="852.4022" y="-509.42023"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n18" label="kachelmannwetter.com">
+        <attvalues>
+          <attvalue for="v_name" value="kachelmannwetter.com"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-685.3316" y="444.11002"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n19" label="karlsruhe-insider.de">
+        <attvalues>
+          <attvalue for="v_name" value="karlsruhe-insider.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-2171.1504" y="-916.1152"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n20" label="kopp-report.de">
+        <attvalues>
+          <attvalue for="v_name" value="kopp-report.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.307693"/>
+        <viz:position x="1319.9944" y="-1074.5945"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n21" label="merkur.de">
+        <attvalues>
+          <attvalue for="v_name" value="merkur.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-70.05037" y="-228.22208"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n22" label="moin.de">
+        <attvalues>
+          <attvalue for="v_name" value="moin.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1513.8475" y="-7.0062265"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n23" label="mopo.de">
+        <attvalues>
+          <attvalue for="v_name" value="mopo.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-698.37103" y="-584.5802"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n24" label="morgenpost.de">
+        <attvalues>
+          <attvalue for="v_name" value="morgenpost.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-588.1767" y="156.9204"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n25" label="n-tv.de">
+        <attvalues>
+          <attvalue for="v_name" value="n-tv.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="18.076923"/>
+        <viz:position x="366.66" y="1411.3701"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n26" label="news.de">
+        <attvalues>
+          <attvalue for="v_name" value="news.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-819.32886" y="-1270.8354"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n27" label="nzz.ch">
+        <attvalues>
+          <attvalue for="v_name" value="nzz.ch"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-751.76807" y="1193.868"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n28" label="pi-news.net">
+        <attvalues>
+          <attvalue for="v_name" value="pi-news.net"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.307693"/>
+        <viz:position x="637.4255" y="-939.77856"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n29" label="presseportal.de">
+        <attvalues>
+          <attvalue for="v_name" value="presseportal.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1109.977" y="-1334.3518"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n30" label="rbb24.de">
+        <attvalues>
+          <attvalue for="v_name" value="rbb24.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="231.07582" y="1633.918"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n31" label="reitschuster.de">
+        <attvalues>
+          <attvalue for="v_name" value="reitschuster.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="21.538462"/>
+        <viz:position x="1778.9237" y="-497.7827"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n32" label="report24.news">
+        <attvalues>
+          <attvalue for="v_name" value="report24.news"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="13.461538"/>
+        <viz:position x="2106.253" y="-1019.7265"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n33" label="rnd.de">
+        <attvalues>
+          <attvalue for="v_name" value="rnd.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-420.4713" y="1530.0266"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n34" label="spiegel.de">
+        <attvalues>
+          <attvalue for="v_name" value="spiegel.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="-379.4718" y="316.8759"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n35" label="stern.de">
+        <attvalues>
+          <attvalue for="v_name" value="stern.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-635.74884" y="-292.84616"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n36" label="stuttgarter-zeitung.de">
+        <attvalues>
+          <attvalue for="v_name" value="stuttgarter-zeitung.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-252.87529" y="-52.634666"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n37" label="sueddeutsche.de">
+        <attvalues>
+          <attvalue for="v_name" value="sueddeutsche.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="13.461538"/>
+        <viz:position x="-1263.7303" y="790.0321"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n38" label="tag24.de">
+        <attvalues>
+          <attvalue for="v_name" value="tag24.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1136.2682" y="-1122.0627"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n39" label="tagesschau.de">
+        <attvalues>
+          <attvalue for="v_name" value="tagesschau.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="18.076923"/>
+        <viz:position x="-7.254404" y="1694.8562"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n40" label="tagesspiegel.de">
+        <attvalues>
+          <attvalue for="v_name" value="tagesspiegel.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="12.307693"/>
+        <viz:position x="71.46429" y="182.4219"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n41" label="taz.de">
+        <attvalues>
+          <attvalue for="v_name" value="taz.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-68.95145" y="1136.0254"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n42" label="tichyseinblick.de">
+        <attvalues>
+          <attvalue for="v_name" value="tichyseinblick.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="19.23077"/>
+        <viz:position x="1366.0989" y="-213.3246"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n43" label="tz.de">
+        <attvalues>
+          <attvalue for="v_name" value="tz.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.307693"/>
+        <viz:position x="-1781.0607" y="-811.1182"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n44" label="uncutnews.ch">
+        <attvalues>
+          <attvalue for="v_name" value="uncutnews.ch"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="2214.4058" y="-865.1372"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n45" label="waz.de">
+        <attvalues>
+          <attvalue for="v_name" value="waz.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1054.4067" y="-1216.1843"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n46" label="welt.de">
+        <attvalues>
+          <attvalue for="v_name" value="welt.de"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="28.461538"/>
+        <viz:position x="495.88098" y="-127.93712"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n47" label="zeit.de">
+        <attvalues>
+          <attvalue for="v_name" value="zeit.de"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="20.384617"/>
+        <viz:position x="-174.96913" y="802.64154"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n48" label="bild.de">
+        <attvalues>
+          <attvalue for="v_name" value="bild.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="28.461538"/>
+        <viz:position x="-917.895" y="-1058.9229"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n49" label="infranken.de">
+        <attvalues>
+          <attvalue for="v_name" value="infranken.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-2279.7966" y="-972.6091"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n50" label="kreiszeitung.de">
+        <attvalues>
+          <attvalue for="v_name" value="kreiszeitung.de"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.153846"/>
+        <viz:position x="-2172.982" y="99.01381"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="599" source="n0" target="n42" weight="0.393002671823052">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.393002671823052"/>
+        </attvalues>
+      </edge>
+      <edge id="600" source="n0" target="n31" weight="0.328012543962285">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.7393639461226"/>
+          <attvalue for="e_overlap" value="0.328012543962285"/>
+        </attvalues>
+      </edge>
+      <edge id="601" source="n0" target="n46" weight="0.346153587355602">
+        <attvalues>
+          <attvalue for="e_relevance" value="92.0893629034937"/>
+          <attvalue for="e_overlap" value="0.346153587355602"/>
+        </attvalues>
+      </edge>
+      <edge id="602" source="n1" target="n20" weight="0.382518029576279">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.382518029576279"/>
+        </attvalues>
+      </edge>
+      <edge id="603" source="n1" target="n31" weight="0.317960422951602">
+        <attvalues>
+          <attvalue for="e_relevance" value="90.6404210519879"/>
+          <attvalue for="e_overlap" value="0.317960422951602"/>
+        </attvalues>
+      </edge>
+      <edge id="604" source="n1" target="n32" weight="0.19672797620068">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.9508494815133"/>
+          <attvalue for="e_overlap" value="0.19672797620068"/>
+        </attvalues>
+      </edge>
+      <edge id="605" source="n1" target="n42" weight="0.250138286481407">
+        <attvalues>
+          <attvalue for="e_relevance" value="87.2328420910543"/>
+          <attvalue for="e_overlap" value="0.250138286481407"/>
+        </attvalues>
+      </edge>
+      <edge id="606" source="n1" target="n0" weight="0.204739522742789">
+        <attvalues>
+          <attvalue for="e_relevance" value="86.1071560583862"/>
+          <attvalue for="e_overlap" value="0.204739522742789"/>
+        </attvalues>
+      </edge>
+      <edge id="607" source="n1" target="n28" weight="0.179814711278449">
+        <attvalues>
+          <attvalue for="e_relevance" value="85.437710947027"/>
+          <attvalue for="e_overlap" value="0.179814711278449"/>
+        </attvalues>
+      </edge>
+      <edge id="608" source="n1" target="n17" weight="0.19233615311431">
+        <attvalues>
+          <attvalue for="e_relevance" value="85.359813326126"/>
+          <attvalue for="e_overlap" value="0.19233615311431"/>
+        </attvalues>
+      </edge>
+      <edge id="609" source="n2" target="n34" weight="0.153876616819035">
+        <attvalues>
+          <attvalue for="e_relevance" value="82.6306520763531"/>
+          <attvalue for="e_overlap" value="0.153876616819035"/>
+        </attvalues>
+      </edge>
+      <edge id="610" source="n3" target="n40" weight="0.159669188489648">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.159669188489648"/>
+        </attvalues>
+      </edge>
+      <edge id="611" source="n3" target="n46" weight="0.213239393119981">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.9103436769851"/>
+          <attvalue for="e_overlap" value="0.213239393119981"/>
+        </attvalues>
+      </edge>
+      <edge id="612" source="n3" target="n34" weight="0.247442838106602">
+        <attvalues>
+          <attvalue for="e_relevance" value="94.4060126274164"/>
+          <attvalue for="e_overlap" value="0.247442838106602"/>
+        </attvalues>
+      </edge>
+      <edge id="613" source="n3" target="n12" weight="0.16251302446477">
+        <attvalues>
+          <attvalue for="e_relevance" value="92.9414653759261"/>
+          <attvalue for="e_overlap" value="0.16251302446477"/>
+        </attvalues>
+      </edge>
+      <edge id="614" source="n3" target="n47" weight="0.157389451373751">
+        <attvalues>
+          <attvalue for="e_relevance" value="92.8850522024604"/>
+          <attvalue for="e_overlap" value="0.157389451373751"/>
+        </attvalues>
+      </edge>
+      <edge id="615" source="n3" target="n48" weight="0.173477235032634">
+        <attvalues>
+          <attvalue for="e_relevance" value="85.7104422910333"/>
+          <attvalue for="e_overlap" value="0.173477235032634"/>
+        </attvalues>
+      </edge>
+      <edge id="616" source="n4" target="n14" weight="0.204615946739103">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.204615946739103"/>
+        </attvalues>
+      </edge>
+      <edge id="617" source="n4" target="n48" weight="0.272010906875428">
+        <attvalues>
+          <attvalue for="e_relevance" value="86.3676068773972"/>
+          <attvalue for="e_overlap" value="0.272010906875428"/>
+        </attvalues>
+      </edge>
+      <edge id="618" source="n4" target="n12" weight="0.182569227630581">
+        <attvalues>
+          <attvalue for="e_relevance" value="83.6043878704041"/>
+          <attvalue for="e_overlap" value="0.182569227630581"/>
+        </attvalues>
+      </edge>
+      <edge id="619" source="n5" target="n48" weight="0.386392252847508">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.4739174661935"/>
+          <attvalue for="e_overlap" value="0.386392252847508"/>
+        </attvalues>
+      </edge>
+      <edge id="620" source="n6" target="n42" weight="0.318160688648203">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.318160688648203"/>
+        </attvalues>
+      </edge>
+      <edge id="621" source="n6" target="n0" weight="0.277602711081243">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.7100788027595"/>
+          <attvalue for="e_overlap" value="0.277602711081243"/>
+        </attvalues>
+      </edge>
+      <edge id="622" source="n6" target="n31" weight="0.262346999911997">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.1575978520508"/>
+          <attvalue for="e_overlap" value="0.262346999911997"/>
+        </attvalues>
+      </edge>
+      <edge id="623" source="n6" target="n46" weight="0.29868624310113">
+        <attvalues>
+          <attvalue for="e_relevance" value="78.6249288196385"/>
+          <attvalue for="e_overlap" value="0.29868624310113"/>
+        </attvalues>
+      </edge>
+      <edge id="624" source="n7" target="n48" weight="0.240207348498414">
+        <attvalues>
+          <attvalue for="e_relevance" value="93.7246447751099"/>
+          <attvalue for="e_overlap" value="0.240207348498414"/>
+        </attvalues>
+      </edge>
+      <edge id="625" source="n8" target="n47" weight="0.157582081917576">
+        <attvalues>
+          <attvalue for="e_relevance" value="91.4023406440247"/>
+          <attvalue for="e_overlap" value="0.157582081917576"/>
+        </attvalues>
+      </edge>
+      <edge id="626" source="n8" target="n34" weight="0.228266205857487">
+        <attvalues>
+          <attvalue for="e_relevance" value="90.5879146613541"/>
+          <attvalue for="e_overlap" value="0.228266205857487"/>
+        </attvalues>
+      </edge>
+      <edge id="627" source="n8" target="n39" weight="0.176334793675651">
+        <attvalues>
+          <attvalue for="e_relevance" value="87.4259706829344"/>
+          <attvalue for="e_overlap" value="0.176334793675651"/>
+        </attvalues>
+      </edge>
+      <edge id="628" source="n9" target="n31" weight="0.227538099008739">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.227538099008739"/>
+        </attvalues>
+      </edge>
+      <edge id="629" source="n9" target="n42" weight="0.189257148606707">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.3991306024462"/>
+          <attvalue for="e_overlap" value="0.189257148606707"/>
+        </attvalues>
+      </edge>
+      <edge id="630" source="n9" target="n46" weight="0.198878833850256">
+        <attvalues>
+          <attvalue for="e_relevance" value="77.6518999710883"/>
+          <attvalue for="e_overlap" value="0.198878833850256"/>
+        </attvalues>
+      </edge>
+      <edge id="631" source="n10" target="n48" weight="0.340396347763038">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.340396347763038"/>
+        </attvalues>
+      </edge>
+      <edge id="632" source="n10" target="n34" weight="0.181021714787291">
+        <attvalues>
+          <attvalue for="e_relevance" value="86.2906622604319"/>
+          <attvalue for="e_overlap" value="0.181021714787291"/>
+        </attvalues>
+      </edge>
+      <edge id="633" source="n11" target="n34" weight="0.285880697264091">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.285880697264091"/>
+        </attvalues>
+      </edge>
+      <edge id="634" source="n11" target="n47" weight="0.195408652938155">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.7017323650428"/>
+          <attvalue for="e_overlap" value="0.195408652938155"/>
+        </attvalues>
+      </edge>
+      <edge id="635" source="n11" target="n37" weight="0.152336043564962">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.686331230055"/>
+          <attvalue for="e_overlap" value="0.152336043564962"/>
+        </attvalues>
+      </edge>
+      <edge id="636" source="n11" target="n46" weight="0.179326860008239">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.8679380798731"/>
+          <attvalue for="e_overlap" value="0.179326860008239"/>
+        </attvalues>
+      </edge>
+      <edge id="637" source="n12" target="n46" weight="0.171520988232189">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.171520988232189"/>
+        </attvalues>
+      </edge>
+      <edge id="638" source="n12" target="n34" weight="0.213277655350709">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.4513890114792"/>
+          <attvalue for="e_overlap" value="0.213277655350709"/>
+        </attvalues>
+      </edge>
+      <edge id="639" source="n12" target="n48" weight="0.191812846348984">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.2260130106541"/>
+          <attvalue for="e_overlap" value="0.191812846348984"/>
+        </attvalues>
+      </edge>
+      <edge id="640" source="n13" target="n34" weight="0.317122352084357">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.317122352084357"/>
+        </attvalues>
+      </edge>
+      <edge id="641" source="n13" target="n11" weight="0.174951946651895">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.7976175159418"/>
+          <attvalue for="e_overlap" value="0.174951946651895"/>
+        </attvalues>
+      </edge>
+      <edge id="642" source="n13" target="n37" weight="0.160600019398463">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.4739061595992"/>
+          <attvalue for="e_overlap" value="0.160600019398463"/>
+        </attvalues>
+      </edge>
+      <edge id="643" source="n13" target="n46" weight="0.199223140641272">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.1475685996966"/>
+          <attvalue for="e_overlap" value="0.199223140641272"/>
+        </attvalues>
+      </edge>
+      <edge id="644" source="n13" target="n39" weight="0.214961579836666">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.4104794867749"/>
+          <attvalue for="e_overlap" value="0.214961579836666"/>
+        </attvalues>
+      </edge>
+      <edge id="645" source="n13" target="n47" weight="0.171729578470015">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.2201234449975"/>
+          <attvalue for="e_overlap" value="0.171729578470015"/>
+        </attvalues>
+      </edge>
+      <edge id="646" source="n13" target="n25" weight="0.190156993980931">
+        <attvalues>
+          <attvalue for="e_relevance" value="89.9711429034716"/>
+          <attvalue for="e_overlap" value="0.190156993980931"/>
+        </attvalues>
+      </edge>
+      <edge id="647" source="n13" target="n48" weight="0.163551929196845">
+        <attvalues>
+          <attvalue for="e_relevance" value="81.2383263522292"/>
+          <attvalue for="e_overlap" value="0.163551929196845"/>
+        </attvalues>
+      </edge>
+      <edge id="648" source="n14" target="n4" weight="0.243451159751815">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.243451159751815"/>
+        </attvalues>
+      </edge>
+      <edge id="649" source="n15" target="n39" weight="0.256551039850486">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.256551039850486"/>
+        </attvalues>
+      </edge>
+      <edge id="650" source="n15" target="n34" weight="0.157060571844748">
+        <attvalues>
+          <attvalue for="e_relevance" value="80.5606304891858"/>
+          <attvalue for="e_overlap" value="0.157060571844748"/>
+        </attvalues>
+      </edge>
+      <edge id="651" source="n16" target="n34" weight="0.169266775241912">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.5291029704004"/>
+          <attvalue for="e_overlap" value="0.169266775241912"/>
+        </attvalues>
+      </edge>
+      <edge id="652" source="n17" target="n42" weight="0.239346812877157">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.239346812877157"/>
+        </attvalues>
+      </edge>
+      <edge id="653" source="n17" target="n0" weight="0.155717595563864">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.8811521458708"/>
+          <attvalue for="e_overlap" value="0.155717595563864"/>
+        </attvalues>
+      </edge>
+      <edge id="654" source="n17" target="n31" weight="0.178210904636126">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.3195746627951"/>
+          <attvalue for="e_overlap" value="0.178210904636126"/>
+        </attvalues>
+      </edge>
+      <edge id="655" source="n17" target="n46" weight="0.307636604461822">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.990222162471"/>
+          <attvalue for="e_overlap" value="0.307636604461822"/>
+        </attvalues>
+      </edge>
+      <edge id="656" source="n17" target="n12" weight="0.237620456882218">
+        <attvalues>
+          <attvalue for="e_relevance" value="83.6117554164226"/>
+          <attvalue for="e_overlap" value="0.237620456882218"/>
+        </attvalues>
+      </edge>
+      <edge id="657" source="n18" target="n34" weight="0.155100136743244">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.9157309263955"/>
+          <attvalue for="e_overlap" value="0.155100136743244"/>
+        </attvalues>
+      </edge>
+      <edge id="658" source="n19" target="n43" weight="0.160494526391196">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.1239884333346"/>
+          <attvalue for="e_overlap" value="0.160494526391196"/>
+        </attvalues>
+      </edge>
+      <edge id="659" source="n19" target="n49" weight="0.178984679201241">
+        <attvalues>
+          <attvalue for="e_relevance" value="94.3696725648128"/>
+          <attvalue for="e_overlap" value="0.178984679201241"/>
+        </attvalues>
+      </edge>
+      <edge id="660" source="n20" target="n32" weight="0.292055401190146">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.4445277248526"/>
+          <attvalue for="e_overlap" value="0.292055401190146"/>
+        </attvalues>
+      </edge>
+      <edge id="661" source="n20" target="n28" weight="0.158180324245153">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.4639496481604"/>
+          <attvalue for="e_overlap" value="0.158180324245153"/>
+        </attvalues>
+      </edge>
+      <edge id="662" source="n20" target="n46" weight="0.466975702529843">
+        <attvalues>
+          <attvalue for="e_relevance" value="90.4786640824365"/>
+          <attvalue for="e_overlap" value="0.466975702529843"/>
+        </attvalues>
+      </edge>
+      <edge id="663" source="n20" target="n0" weight="0.163858284282992">
+        <attvalues>
+          <attvalue for="e_relevance" value="89.3296092368614"/>
+          <attvalue for="e_overlap" value="0.163858284282992"/>
+        </attvalues>
+      </edge>
+      <edge id="664" source="n20" target="n1" weight="0.20607609423283">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.7836544873647"/>
+          <attvalue for="e_overlap" value="0.20607609423283"/>
+        </attvalues>
+      </edge>
+      <edge id="665" source="n20" target="n42" weight="0.312406276179219">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.1940535094389"/>
+          <attvalue for="e_overlap" value="0.312406276179219"/>
+        </attvalues>
+      </edge>
+      <edge id="666" source="n20" target="n31" weight="0.183689278809365">
+        <attvalues>
+          <attvalue for="e_relevance" value="79.9139742041144"/>
+          <attvalue for="e_overlap" value="0.183689278809365"/>
+        </attvalues>
+      </edge>
+      <edge id="667" source="n21" target="n46" weight="0.169543367733819">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.169543367733819"/>
+        </attvalues>
+      </edge>
+      <edge id="668" source="n21" target="n12" weight="0.159967069876297">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.2025789741681"/>
+          <attvalue for="e_overlap" value="0.159967069876297"/>
+        </attvalues>
+      </edge>
+      <edge id="669" source="n21" target="n34" weight="0.190683149496835">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.0910823474531"/>
+          <attvalue for="e_overlap" value="0.190683149496835"/>
+        </attvalues>
+      </edge>
+      <edge id="670" source="n21" target="n48" weight="0.171740674442299">
+        <attvalues>
+          <attvalue for="e_relevance" value="93.6222707231713"/>
+          <attvalue for="e_overlap" value="0.171740674442299"/>
+        </attvalues>
+      </edge>
+      <edge id="671" source="n22" target="n7" weight="0.470112696869056">
+        <attvalues>
+          <attvalue for="e_relevance" value="93.60211577839"/>
+          <attvalue for="e_overlap" value="0.470112696869056"/>
+        </attvalues>
+      </edge>
+      <edge id="672" source="n22" target="n4" weight="0.263263110246672">
+        <attvalues>
+          <attvalue for="e_relevance" value="92.8396262396539"/>
+          <attvalue for="e_overlap" value="0.263263110246672"/>
+        </attvalues>
+      </edge>
+      <edge id="673" source="n22" target="n50" weight="0.235056348434528">
+        <attvalues>
+          <attvalue for="e_relevance" value="91.8833109403213"/>
+          <attvalue for="e_overlap" value="0.235056348434528"/>
+        </attvalues>
+      </edge>
+      <edge id="674" source="n22" target="n43" weight="0.246249507883791">
+        <attvalues>
+          <attvalue for="e_relevance" value="90.0625082155085"/>
+          <attvalue for="e_overlap" value="0.246249507883791"/>
+        </attvalues>
+      </edge>
+      <edge id="675" source="n22" target="n23" weight="0.235056348434528">
+        <attvalues>
+          <attvalue for="e_relevance" value="89.7752580144828"/>
+          <attvalue for="e_overlap" value="0.235056348434528"/>
+        </attvalues>
+      </edge>
+      <edge id="676" source="n22" target="n33" weight="0.250726771663497">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.907534977363"/>
+          <attvalue for="e_overlap" value="0.250726771663497"/>
+        </attvalues>
+      </edge>
+      <edge id="677" source="n22" target="n40" weight="0.261173720482809">
+        <attvalues>
+          <attvalue for="e_relevance" value="87.4427124987262"/>
+          <attvalue for="e_overlap" value="0.261173720482809"/>
+        </attvalues>
+      </edge>
+      <edge id="678" source="n22" target="n47" weight="0.253137606006415">
+        <attvalues>
+          <attvalue for="e_relevance" value="82.1365972133508"/>
+          <attvalue for="e_overlap" value="0.253137606006415"/>
+        </attvalues>
+      </edge>
+      <edge id="679" source="n22" target="n37" weight="0.29549940946055">
+        <attvalues>
+          <attvalue for="e_relevance" value="79.3710312527456"/>
+          <attvalue for="e_overlap" value="0.29549940946055"/>
+        </attvalues>
+      </edge>
+      <edge id="680" source="n22" target="n11" weight="0.321656055752512">
+        <attvalues>
+          <attvalue for="e_relevance" value="76.6309886353715"/>
+          <attvalue for="e_overlap" value="0.321656055752512"/>
+        </attvalues>
+      </edge>
+      <edge id="681" source="n22" target="n35" weight="0.299162625280309">
+        <attvalues>
+          <attvalue for="e_relevance" value="75.7324619710513"/>
+          <attvalue for="e_overlap" value="0.299162625280309"/>
+        </attvalues>
+      </edge>
+      <edge id="682" source="n23" target="n48" weight="0.355093901039662">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.974647822752"/>
+          <attvalue for="e_overlap" value="0.355093901039662"/>
+        </attvalues>
+      </edge>
+      <edge id="683" source="n23" target="n34" weight="0.2242930439467">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.5012883850228"/>
+          <attvalue for="e_overlap" value="0.2242930439467"/>
+        </attvalues>
+      </edge>
+      <edge id="684" source="n23" target="n46" weight="0.153438719558641">
+        <attvalues>
+          <attvalue for="e_relevance" value="87.7975965580763"/>
+          <attvalue for="e_overlap" value="0.153438719558641"/>
+        </attvalues>
+      </edge>
+      <edge id="685" source="n24" target="n34" weight="0.154987735864594">
+        <attvalues>
+          <attvalue for="e_relevance" value="82.6502761139342"/>
+          <attvalue for="e_overlap" value="0.154987735864594"/>
+        </attvalues>
+      </edge>
+      <edge id="686" source="n25" target="n34" weight="0.165298409264089">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.165298409264089"/>
+        </attvalues>
+      </edge>
+      <edge id="687" source="n26" target="n48" weight="0.205341164603265">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.5143363319102"/>
+          <attvalue for="e_overlap" value="0.205341164603265"/>
+        </attvalues>
+      </edge>
+      <edge id="688" source="n27" target="n11" weight="0.151057527827729">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.151057527827729"/>
+        </attvalues>
+      </edge>
+      <edge id="689" source="n27" target="n34" weight="0.187927729399479">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.9951668194104"/>
+          <attvalue for="e_overlap" value="0.187927729399479"/>
+        </attvalues>
+      </edge>
+      <edge id="690" source="n27" target="n25" weight="0.150702742258533">
+        <attvalues>
+          <attvalue for="e_relevance" value="87.6691453893621"/>
+          <attvalue for="e_overlap" value="0.150702742258533"/>
+        </attvalues>
+      </edge>
+      <edge id="691" source="n28" target="n31" weight="0.199995756621788">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.199995756621788"/>
+        </attvalues>
+      </edge>
+      <edge id="692" source="n28" target="n46" weight="0.282563477417068">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.1829528199666"/>
+          <attvalue for="e_overlap" value="0.282563477417068"/>
+        </attvalues>
+      </edge>
+      <edge id="693" source="n28" target="n12" weight="0.202667719135171">
+        <attvalues>
+          <attvalue for="e_relevance" value="80.9021196858795"/>
+          <attvalue for="e_overlap" value="0.202667719135171"/>
+        </attvalues>
+      </edge>
+      <edge id="694" source="n29" target="n48" weight="0.168685332361248">
+        <attvalues>
+          <attvalue for="e_relevance" value="83.762721414971"/>
+          <attvalue for="e_overlap" value="0.168685332361248"/>
+        </attvalues>
+      </edge>
+      <edge id="695" source="n30" target="n39" weight="0.288828769002109">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.9683664569277"/>
+          <attvalue for="e_overlap" value="0.288828769002109"/>
+        </attvalues>
+      </edge>
+      <edge id="696" source="n30" target="n25" weight="0.16156027200779">
+        <attvalues>
+          <attvalue for="e_relevance" value="86.5008830870468"/>
+          <attvalue for="e_overlap" value="0.16156027200779"/>
+        </attvalues>
+      </edge>
+      <edge id="697" source="n30" target="n34" weight="0.177533531376143">
+        <attvalues>
+          <attvalue for="e_relevance" value="80.1911292880038"/>
+          <attvalue for="e_overlap" value="0.177533531376143"/>
+        </attvalues>
+      </edge>
+      <edge id="698" source="n31" target="n0" weight="0.194159632297146">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.9856228406125"/>
+          <attvalue for="e_overlap" value="0.194159632297146"/>
+        </attvalues>
+      </edge>
+      <edge id="699" source="n31" target="n42" weight="0.206528202791982">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.1055043231407"/>
+          <attvalue for="e_overlap" value="0.206528202791982"/>
+        </attvalues>
+      </edge>
+      <edge id="700" source="n31" target="n46" weight="0.232542310864447">
+        <attvalues>
+          <attvalue for="e_relevance" value="91.7844072047883"/>
+          <attvalue for="e_overlap" value="0.232542310864447"/>
+        </attvalues>
+      </edge>
+      <edge id="704" source="n32" target="n44" weight="0.245238303097131">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.245238303097131"/>
+        </attvalues>
+      </edge>
+      <edge id="705" source="n32" target="n31" weight="0.303899797705575">
+        <attvalues>
+          <attvalue for="e_relevance" value="94.6868403273822"/>
+          <attvalue for="e_overlap" value="0.303899797705575"/>
+        </attvalues>
+      </edge>
+      <edge id="706" source="n32" target="n20" weight="0.17531864455419">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.976600090026"/>
+          <attvalue for="e_overlap" value="0.17531864455419"/>
+        </attvalues>
+      </edge>
+      <edge id="707" source="n32" target="n42" weight="0.158470827521024">
+        <attvalues>
+          <attvalue for="e_relevance" value="84.3892076595427"/>
+          <attvalue for="e_overlap" value="0.158470827521024"/>
+        </attvalues>
+      </edge>
+      <edge id="708" source="n33" target="n34" weight="0.198754624345791">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.198754624345791"/>
+        </attvalues>
+      </edge>
+      <edge id="709" source="n33" target="n25" weight="0.185997393112068">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.1278875943903"/>
+          <attvalue for="e_overlap" value="0.185997393112068"/>
+        </attvalues>
+      </edge>
+      <edge id="710" source="n33" target="n39" weight="0.151409506923381">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.8749955788702"/>
+          <attvalue for="e_overlap" value="0.151409506923381"/>
+        </attvalues>
+      </edge>
+      <edge id="711" source="n34" target="n47" weight="0.151792353696585">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.151792353696585"/>
+        </attvalues>
+      </edge>
+      <edge id="712" source="n35" target="n34" weight="0.23807303823977">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.23807303823977"/>
+        </attvalues>
+      </edge>
+      <edge id="713" source="n35" target="n12" weight="0.167289644049098">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.9782170814402"/>
+          <attvalue for="e_overlap" value="0.167289644049098"/>
+        </attvalues>
+      </edge>
+      <edge id="714" source="n35" target="n48" weight="0.159201348069878">
+        <attvalues>
+          <attvalue for="e_relevance" value="94.4603344631163"/>
+          <attvalue for="e_overlap" value="0.159201348069878"/>
+        </attvalues>
+      </edge>
+      <edge id="715" source="n36" target="n34" weight="0.270294960664556">
+        <attvalues>
+          <attvalue for="e_relevance" value="92.8938534739755"/>
+          <attvalue for="e_overlap" value="0.270294960664556"/>
+        </attvalues>
+      </edge>
+      <edge id="716" source="n36" target="n12" weight="0.150310308175162">
+        <attvalues>
+          <attvalue for="e_relevance" value="88.56106859905"/>
+          <attvalue for="e_overlap" value="0.150310308175162"/>
+        </attvalues>
+      </edge>
+      <edge id="717" source="n37" target="n34" weight="0.286759371650423">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.286759371650423"/>
+        </attvalues>
+      </edge>
+      <edge id="718" source="n37" target="n11" weight="0.168123024438094">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.3037605395442"/>
+          <attvalue for="e_overlap" value="0.168123024438094"/>
+        </attvalues>
+      </edge>
+      <edge id="719" source="n37" target="n47" weight="0.192413815762303">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.8891119829837"/>
+          <attvalue for="e_overlap" value="0.192413815762303"/>
+        </attvalues>
+      </edge>
+      <edge id="720" source="n38" target="n48" weight="0.253947098636561">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.253947098636561"/>
+        </attvalues>
+      </edge>
+      <edge id="721" source="n39" target="n34" weight="0.15997925736653">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.15997925736653"/>
+        </attvalues>
+      </edge>
+      <edge id="722" source="n40" target="n34" weight="0.283956119181782">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.283956119181782"/>
+        </attvalues>
+      </edge>
+      <edge id="723" source="n40" target="n47" weight="0.181039242203215">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.4645294120808"/>
+          <attvalue for="e_overlap" value="0.181039242203215"/>
+        </attvalues>
+      </edge>
+      <edge id="724" source="n40" target="n46" weight="0.178746255071448">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.5890197842556"/>
+          <attvalue for="e_overlap" value="0.178746255071448"/>
+        </attvalues>
+      </edge>
+      <edge id="725" source="n40" target="n39" weight="0.160836295270512">
+        <attvalues>
+          <attvalue for="e_relevance" value="93.6239025643577"/>
+          <attvalue for="e_overlap" value="0.160836295270512"/>
+        </attvalues>
+      </edge>
+      <edge id="726" source="n40" target="n25" weight="0.160226586260453">
+        <attvalues>
+          <attvalue for="e_relevance" value="93.1226880441777"/>
+          <attvalue for="e_overlap" value="0.160226586260453"/>
+        </attvalues>
+      </edge>
+      <edge id="727" source="n41" target="n47" weight="0.209838334001447">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.209838334001447"/>
+        </attvalues>
+      </edge>
+      <edge id="728" source="n41" target="n34" weight="0.288179124874014">
+        <attvalues>
+          <attvalue for="e_relevance" value="99.3087392059889"/>
+          <attvalue for="e_overlap" value="0.288179124874014"/>
+        </attvalues>
+      </edge>
+      <edge id="729" source="n41" target="n11" weight="0.178787212968974">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.7354526598936"/>
+          <attvalue for="e_overlap" value="0.178787212968974"/>
+        </attvalues>
+      </edge>
+      <edge id="730" source="n41" target="n39" weight="0.186446415021582">
+        <attvalues>
+          <attvalue for="e_relevance" value="93.2383586190792"/>
+          <attvalue for="e_overlap" value="0.186446415021582"/>
+        </attvalues>
+      </edge>
+      <edge id="731" source="n41" target="n25" weight="0.158736887610086">
+        <attvalues>
+          <attvalue for="e_relevance" value="87.534868087773"/>
+          <attvalue for="e_overlap" value="0.158736887610086"/>
+        </attvalues>
+      </edge>
+      <edge id="732" source="n42" target="n0" weight="0.292997873991312">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.292997873991312"/>
+        </attvalues>
+      </edge>
+      <edge id="733" source="n42" target="n31" weight="0.260141526095452">
+        <attvalues>
+          <attvalue for="e_relevance" value="98.0167757659585"/>
+          <attvalue for="e_overlap" value="0.260141526095452"/>
+        </attvalues>
+      </edge>
+      <edge id="734" source="n42" target="n46" weight="0.386326365766186">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.5783968606732"/>
+          <attvalue for="e_overlap" value="0.386326365766186"/>
+        </attvalues>
+      </edge>
+      <edge id="735" source="n42" target="n12" weight="0.200117046292661">
+        <attvalues>
+          <attvalue for="e_relevance" value="84.1760089830243"/>
+          <attvalue for="e_overlap" value="0.200117046292661"/>
+        </attvalues>
+      </edge>
+      <edge id="736" source="n43" target="n48" weight="0.28314675232457">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.9914667271591"/>
+          <attvalue for="e_overlap" value="0.28314675232457"/>
+        </attvalues>
+      </edge>
+      <edge id="737" source="n43" target="n12" weight="0.152078929755158">
+        <attvalues>
+          <attvalue for="e_relevance" value="91.9262628848974"/>
+          <attvalue for="e_overlap" value="0.152078929755158"/>
+        </attvalues>
+      </edge>
+      <edge id="738" source="n43" target="n34" weight="0.167894554546561">
+        <attvalues>
+          <attvalue for="e_relevance" value="85.5653709120217"/>
+          <attvalue for="e_overlap" value="0.167894554546561"/>
+        </attvalues>
+      </edge>
+      <edge id="739" source="n44" target="n32" weight="0.178223965419664">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.178223965419664"/>
+        </attvalues>
+      </edge>
+      <edge id="740" source="n44" target="n31" weight="0.212177675263469">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.7377829211552"/>
+          <attvalue for="e_overlap" value="0.212177675263469"/>
+        </attvalues>
+      </edge>
+      <edge id="741" source="n45" target="n48" weight="0.230688585185697">
+        <attvalues>
+          <attvalue for="e_relevance" value="85.3955471312823"/>
+          <attvalue for="e_overlap" value="0.230688585185697"/>
+        </attvalues>
+      </edge>
+      <edge id="742" source="n46" target="n34" weight="0.25609815218874">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.25609815218874"/>
+        </attvalues>
+      </edge>
+      <edge id="743" source="n46" target="n12" weight="0.18652792534">
+        <attvalues>
+          <attvalue for="e_relevance" value="97.9776121603012"/>
+          <attvalue for="e_overlap" value="0.18652792534"/>
+        </attvalues>
+      </edge>
+      <edge id="744" source="n46" target="n48" weight="0.201182757329961">
+        <attvalues>
+          <attvalue for="e_relevance" value="96.1038778858942"/>
+          <attvalue for="e_overlap" value="0.201182757329961"/>
+        </attvalues>
+      </edge>
+      <edge id="745" source="n46" target="n25" weight="0.15466659686715">
+        <attvalues>
+          <attvalue for="e_relevance" value="92.1566965895069"/>
+          <attvalue for="e_overlap" value="0.15466659686715"/>
+        </attvalues>
+      </edge>
+      <edge id="746" source="n47" target="n34" weight="0.311743922555835">
+        <attvalues>
+          <attvalue for="e_relevance" value="100.0"/>
+          <attvalue for="e_overlap" value="0.311743922555835"/>
+        </attvalues>
+      </edge>
+      <edge id="747" source="n47" target="n46" weight="0.151945255938779">
+        <attvalues>
+          <attvalue for="e_relevance" value="95.5824229217759"/>
+          <attvalue for="e_overlap" value="0.151945255938779"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
